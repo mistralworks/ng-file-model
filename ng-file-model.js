@@ -1,9 +1,9 @@
 (function () {
     'use strict';
 
-    angular.module('fileread', [])
+    angular.module('ngFileModel', [])
 
-    .directive("fileread", [function () {
+    .directive("ngFileModel", [function () {
         return {
             scope: {
                 fileread: "="
