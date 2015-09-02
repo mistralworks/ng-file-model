@@ -1,6 +1,5 @@
 {
-  "name": "ng-file-model",
-  "version": "0.0.3",
+  "name": "angular-file-model",
   "homepage": "https://github.com/mistralworks/angular-file-model",
   "authors": [
     "Yoza Wiratama <Yoza Wiratama>"
@@ -11,8 +10,7 @@
     "angular",
     "file",
     "reader",
-    "angular-file",
-    "ng-file-model,
+    "angular-file"
   ],
   "license": "MIT",
   "ignore": [
@@ -21,5 +19,15 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "_release": "a463ecab75",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "a463ecab75ee77439e84209ce7b241defe6e88b8"
+  },
+  "_source": "git://github.com/mistralworks/ng-file-model.git",
+  "_target": "*",
+  "_originalSource": "ng-file-model",
+  "_direct": true
 }

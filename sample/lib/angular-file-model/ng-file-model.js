@@ -1,7 +1,7 @@
 (function () {
     'use strict';
 
-    angular.module('ng-file-mdoel', [])
+    angular.module('ngFileModel', [])
 
     .directive("ngFileModel", [function () {
         return {

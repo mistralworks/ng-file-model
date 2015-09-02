@@ -1,6 +1,6 @@
 {
-  "name": "ng-file-model",
-  "version": "0.0.3",
+  "name": "angular-file-model",
+  "version": "0.0.01",
   "homepage": "https://github.com/mistralworks/angular-file-model",
   "authors": [
     "Yoza Wiratama <Yoza Wiratama>"
@@ -11,8 +11,7 @@
     "angular",
     "file",
     "reader",
-    "angular-file",
-    "ng-file-model,
+    "angular-file"
   ],
   "license": "MIT",
   "ignore": [
