@@ -1,13 +1,34 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="" ng-app="myApp">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title></title>
-  
+  <script src="lib/angular/angular.min.js"></script>
+  <script src="lib/ng-file-model/ng-file-model.js"></script>
 </head>
 
-<body>
+<body >
+<div ng-controller="fileCtrl">
+  <form ng-submit="submit(obj)">
+  <input type="file" ng-file-model="obj.testFile" />
+  <input type="submit"  value="submit" />
+  </form>
+  Submitted File :
+  <pre>
   
+  </pre>
+  </div>
+  <script>
+  angular.module("myApp", ["ng-file-model"])
+  .controller("fileCtrl",["$scope", function($scope){
+  $scope.submittedFile = {};
+  $scope.obj = {};
+  $scope.submit = function(obj){
+  console.log(JSON.stringify(obj.testFile))
+  
+  }
+  }])
+  </script>
 </body>
 </html>
