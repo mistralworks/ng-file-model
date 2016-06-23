@@ -1,0 +1,41 @@
+{
+  "name": "ng-file-model",
+  "version": "0.0.5",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mistralworks/ng-file-model.git"
+  },
+  "authors": [
+    "Yoza Wiratama <Yoza Wiratama>"
+  ],
+  "description": "modeling file input with angularjs",
+  "main": "ng-file-model.js",
+  "dependencies": {
+    "angular": "^1.4.0"
+  },
+  "keywords": [
+    "angular",
+    "file",
+    "reader",
+    "angular-file",
+    "ng-file-model",
+    "angular-file-model"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "bugs": {
+    "url": "https://github.com/mistralworks/ng-file-model/issues"
+  },
+  "homepage": "https://github.com/mistralworks/ng-file-model#readme",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": ""
+}
