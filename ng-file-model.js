@@ -26,4 +26,7 @@
             }
         }
     }]);
+    if( isDefined(module) ) {
+      module.exports = angular.module('ng-file-model');
+    }
 })();
