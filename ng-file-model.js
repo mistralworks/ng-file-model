@@ -26,7 +26,8 @@
             }
         }
     }]);
-    if( isDefined(module) ) {
-      module.exports = angular.module('ng-file-model');
+    if( typeof exports !== 'undefined' ) {
+      exports['default'] = angular.module('ng-file-model');
+      module.exports = exports['default'];
     }
 })();
