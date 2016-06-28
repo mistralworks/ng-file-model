@@ -8,7 +8,7 @@
   "description": "modeling file input with angularjs",
   "main": "ng-file-model.js",
   "dependencies": [
-    "angular"
+    "angular": "1.5.0"
   ],
   "keywords": [
     "angular",
