@@ -26,4 +26,8 @@
             }
         }
     }]);
+    if( typeof exports !== 'undefined' ) {
+      exports['default'] = angular.module('ng-file-model');
+      module.exports = exports['default'];
+    }
 })();
